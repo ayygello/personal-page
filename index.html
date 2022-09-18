@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>О себе</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer="defer" src="./utils/animated-text/index.js"></script>
+  <script defer="defer" src="./utils/scroll-to-top/index.js"></script>
+</head>
+
+<body>
+  <div class="layout">
+    <header id="header">
+      <div class="header">
+        <img src="https://i.ibb.co/M2S21Kf/logo.png" alt="logo" class="header__logo">
+        <nav class="menu">
+          <a href="#home" class="menu__link">Home</a>
+          <a href="#education" class="menu__link">Education</a>
+          <a href="#expertise" class="menu__link">Skills</a>
+          <a href="#about" class="menu__link">About</a>
+        </nav>
+        <a href="https://t.me/ayygello" target="_blank" class="header__telegram-btn">Contact
+          Me</a>
+      </div>
+    </header>
+    <main class="main">
+      <section id="home">
+        <div class="person">
+          <div class="person__hello">
+            <p class="person__sub-title">Привет, меня зовут Николай</p>
+            <h1 id="h1" class="person__title">Я начинающий <span class="purple-text">Frontend</span>
+              разработчик</h1>
+          </div>
+          <img src="https://i.ibb.co/TMqdP3r/my-pic.jpg" alt="avatar" class="person__image">
+        </div>
+      </section>
+      <section id="education">
+        <div class="education">
+          <div class="education__high">
+            <h2 class="education__title title-h2">Образование</h2>
+            <h3 class="education__sub-title title-h3"><span class="education__year">2020</span> Неполное высшее</h3>
+            <p class="education__content bold">Новосибирский государственный педагогический университет (НГПУ)</p>
+            <p class="education__content">Институт истории, гуманитарного и социального образования</p>
+          </div>
+          <div class="education__cert">
+            <h2 class="education__title title-h2">Сертификаты</h2>
+            <div class="education__row">
+              <div class="education__piece">
+                <h3 class="education__sub-title"><span class="education__year">2022</span> Нетология</h3>
+                <a href="https://i.ibb.co/y8fVB81/cert-1.jpg" target="_blank"><img
+                    src="https://i.ibb.co/0fDQVfS/cert-1.jpg" class="education__image" alt="cert-1" /></a>
+              </div>
+              <div class="education__piece">
+                <h3 class="education__sub-title"><span class="education__year">2022</span>Y_LAB University
+                </h3>
+                <a href="https://i.ibb.co/QXC50Yd/cert-2.jpg" target="_blank"><img
+                    src="https://i.ibb.co/6N1dQDB/cert-2.jpg" class="education__image" alt="cert-2" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="expertise">
+        <div class="expertise">
+          <h2 class="expertise__title title-h2">Опыт</h2>
+          <div class="expertise__row">
+            <div class="expertise__what">
+              <h3 class="expertise__sub-title title-h3">Что умею:</h3>
+              <ul class="expertise__what-list">
+                <li class="expertise__content">Создавать SPA</li>
+                <li class="expertise__content">Создавать формы с валидацией данных</li>
+                <li class="expertise__content">Делать авторизацию</li>
+                <li class="expertise__content">Интегрироваться с REST API</li>
+                <li class="expertise__content">Работать с Figma</li>
+                <li class="expertise__content">Адаптивно верстать по БЭМ</li>
+              </ul>
+            </div>
+            <div class="expertise__stack">
+              <h3 class="expertise__sub-title title-h3">Стек:</h3>
+              <ul class="expertise__stack-list">
+                <li class="expertise__content html">HTML5</li>
+                <li class="expertise__content css">CSS3</li>
+                <li class="expertise__content sass">SASS</li>
+                <li class="expertise__content js">Javascript/ES6</li>
+                <li class="expertise__content react">React</li>
+                <li class="expertise__content redux">Redux</li>
+                <li class="expertise__content middlewares">Thunk/Saga</li>
+                <li class="expertise__content git">Git</li>
+              </ul>
+            </div>
+            <div class="expertise__portfolio">
+              <h3 class="expertise__sub-title title-h3">Портфолио:</h3>
+              <div class="expertise__project-row">
+                <div class="expertise__project">
+                  <img src="https://i.ibb.co/zrcgkmw/image.png" alt="filter" class="expertise__image">
+                  <h3 class="expertise__sub-title">Filter</h3>
+                  <a href="https://ayygello.github.io/react-portfolio/" target="_blank"
+                    class="expertise__link">Перейти</a>
+                </div>
+                <div class="expertise__project">
+                  <img src="https://i.ibb.co/Br6NS4f/image.png" alt="appointment" class="expertise__image">
+                  <h3 class="expertise__sub-title">Appointments</h3>
+                  <a href="https://doctorrs-appointment.herokuapp.com/" target="_blank"
+                    class="expertise__link">Перейти</a>
+                </div>
+                <div class="expertise__project">
+                  <img src="https://i.ibb.co/VCDNzW1/image.png" alt="form" class="expertise__image">
+                  <h3 class="expertise__sub-title">Registration Form</h3>
+                  <a href="https://reg-f.herokuapp.com/" target="_blank" class="expertise__link">Перейти</a>
+                </div>
+                <div class="expertise__project">
+                  <img src="https://i.ibb.co/th7hkrm/image.png" alt="to-do" class="expertise__image">
+                  <h3 class="expertise__sub-title">To-Do List</h3>
+                  <a href="https://ayygello.github.io/todo-react/" target="_blank" class="expertise__link">Перейти</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about">
+          <h2 class="about__title title-h2"> Обо мне</h2>
+          <p class="about__content">Умею работать в команде, есть опыт в наставничестве. Работал в интернациональном
+            лагере (практика разговорного английского). Всегда изучаю для себя что-то новое.</p>
+
+          <p class="about__content">Люблю провести свободное время за просмотром хорошего кино, ездить в путешествия,
+            ходить в горы.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer">
+        <p class="footer__contact"><span class="footer__contact">Почта:</span><a
+            href="mailto:ayygello@gmail.com">ayygello@gmail.com</a></p>
+        <ul class="footer__nav">
+          <li class="footer__nav-link"><a href="#home">Home</a></li>
+          <li class="footer__nav-link"><a href="#education">Education</a></li>
+          <li class="footer__nav-link"><a href="#expertise">Skills</a></li>
+          <li class="footer__nav-link"><a href="#about">About</a></li>
+        </ul>
+        <div class="footer__links">
+          <a href="https://www.instagram.com/ayygello/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://vk.com/ayygello"><i class="fa-brands fa-vk"></i></a>
+          <a href="https://t.me/ayygello"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://github.com/ayygello"><i class="fa-brands fa-github"></i></a>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="arrow"><i class="fa-sharp fa-solid fa-arrow-up-long"></i></div>
+</body>
+
+</html>
